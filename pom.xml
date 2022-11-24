@@ -126,7 +126,8 @@
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.0.1</version>
           <configuration>
-            <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+            <!--javadocExecutable>${java.home}/bin/javadoc</javadocExecutable-->
+            <javadocExecutable>/usr/bin/javadoc</javadocExecutable>
           </configuration>
         </plugin>
         <plugin>
@@ -157,7 +158,7 @@
     <repository>
       <id>central</id>
       <name>central maven repo</name>
-      <url>https://repo.informatik.hs-furtwangen.de/repository/central/</url>
+      <url>https://repo.cloud.hs-furtwangen.de/repository/central/</url>
     </repository>
   </repositories>
 
